@@ -16,9 +16,9 @@ createApp({
     },
 
     methods:{
-        moltoUtile(){
-            console.log(this.indirizziEmail);
-        },
+        // moltoUtile(){
+        //     console.log(this.indirizziEmail);
+        // },
     },
 
     mounted(){
