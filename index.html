@@ -17,7 +17,7 @@
 
         <ul>
 
-            <li v-for="email in indirizziEmail">{{email}}</li>
+            <li v-for="email in indirizziEmail" v-if="indirizziEmail.length===10">{{email}}</li>
 
         </ul>
         
